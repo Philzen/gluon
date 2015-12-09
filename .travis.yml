@@ -2,6 +2,9 @@ branches:
   only:
     - travis-build-site-fffl
 language: c
+cache:
+  directories:
+  - openwrt
 install:
   - pwd # Just checking where we are
   - git clone https://github.com/freifunk-flensburg/site-fffl.git site
