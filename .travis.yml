@@ -1,3 +1,6 @@
+branches:
+  only:
+    - travis-build-site-fffl
 language: c
 install:
   - pwd # Just checking where we are
