@@ -4,7 +4,8 @@ branches:
 language: c
 cache:
   directories:
-  - openwrt
+  - openwrt/tools
+  - openwrt/toolchain
   - output/images
 install:
   - git clone https://github.com/freifunk-flensburg/site-fffl.git site
