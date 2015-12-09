@@ -1,3 +1,5 @@
+![Travis CI Build Status](https://travis-ci.org/Philzen/gluon.svg)
+
 Documentation (incomplete at this time, contribute if you can!) may be found at
 http://gluon.readthedocs.org/
 
