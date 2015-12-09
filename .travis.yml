@@ -4,12 +4,11 @@ branches:
 language: c
 cache:
   directories:
-  - packages
   - openwrt
   - output/images
 install:
-  - pwd # Just checking where we are
   - git clone https://github.com/freifunk-flensburg/site-fffl.git site
   - make update
 script: 
+  - make clean GLUON_TARGET=ar71xx-generic
   - make --debug=v GLUON_TARGET=ar71xx-generic
