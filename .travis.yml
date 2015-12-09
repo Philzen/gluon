@@ -7,4 +7,4 @@ install:
   - git clone https://github.com/freifunk-flensburg/site-fffl.git site
   - make update
 script: 
-  - make V=s
+  - make V=s GLUON_TARGET=ar71xx-generic
