@@ -4,6 +4,7 @@ branches:
 language: c
 cache:
   directories:
+  - packages
   - openwrt
 install:
   - pwd # Just checking where we are
