@@ -11,4 +11,4 @@ install:
   - make update
 script: 
 #  - make clean GLUON_TARGET=ar71xx-generic
-  - travis_wait -w make GLUON_TARGET=ar71xx-generic
+  - travis_wait make -w GLUON_TARGET=ar71xx-generic
